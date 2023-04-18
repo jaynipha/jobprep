@@ -1,0 +1,32 @@
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.loginForm{
+  width: 380px;
+}
+.loginButton{
+  width: 100%;
+  background-color: #3C486B;
+  border: none;
+  
+}
+.magic:focus{
+  color: #2A2F4F;
+    /* background-color: #3C486B; */
+    border-color: #3C486B;
+    box-shadow: 0 0 0 .25rem #3C486B
+
+}
+.loginButton:hover{
+  background-color: #2A2F4F;
+}
+.resetLinks{
+  display: flex;
+  flex-direction: column;
+}
+.link{
+  color: black;
+}

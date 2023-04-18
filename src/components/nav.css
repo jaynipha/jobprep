@@ -1,0 +1,17 @@
+.navLeft{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.custom{
+  width: 150px;
+  background-color: #3C486B;
+  border: none;
+}
+.custom:hover{
+  background-color: #2A2F4F;
+}
+.navbar-nav{
+  gap: 50px;
+}
