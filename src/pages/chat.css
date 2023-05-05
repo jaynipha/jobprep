@@ -1,0 +1,151 @@
+.chat-container {
+
+
+
+      /* border: 1px solid #ccc; */
+      border-radius: 5px;
+
+      position: relative;
+
+
+
+}
+
+.chat {
+      /* font-family: 'Oleo Script Swash Caps',cursive; */
+
+}
+
+.chat-header {
+      /* background-color: #f2f2f2; */
+      padding: 10px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+}
+
+.chat-messages {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      min-height: calc(100vh - 196px);
+      max-height: calc(100vh - 196px);
+      overflow-y: scroll;
+
+
+}
+
+.message {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 10px;
+}
+
+
+
+.message-profile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.message-content {
+      padding: 10px;
+      /* border-radius: 5px; */
+      max-width: 70%;
+      word-wrap: break-word;
+
+}
+
+.message-content {
+      padding: 10px;
+      /* border-radius: 5px; */
+      max-width: 70%;
+      word-wrap: break-word;
+      background-color: #2A2F4F;
+      color: #f2f2f2;
+      border-bottom-left-radius: 22px;
+      border-bottom-right-radius: 22px;
+}
+
+.mine {
+      border-top-left-radius: 22px;
+
+}
+
+.other {
+      border-top-right-radius: 22px;
+
+}
+
+.chatContent {}
+
+/* .message_mine .message-content {
+      background-color: #dcf8c6;
+      align-self: flex-end;
+}
+
+.message_other .message-content {
+      background-color: #f2f2f2;
+      align-self: flex-start;
+} */
+
+
+.message_other {
+      display: flex;
+
+}
+
+.message_mine {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-end;
+      justify-content: end;
+
+
+
+
+}
+
+.chat-input {
+      /* position: absolute; */
+
+      /* width: 100%; */
+
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      /* margin-top: 30px; */
+}
+
+.send {
+      /* color: white; */
+      color: white;
+      background-color: #3C486B;
+      padding: 5px;
+      border-radius: 12px;
+      width: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+
+}
+
+.chatBox {
+      width: 70%;
+      padding-top: 4px;
+      padding-bottom: 8px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      border: 2px solid #3C486B;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+      .chatBox {
+            width: 100%;
+      }
+
+}

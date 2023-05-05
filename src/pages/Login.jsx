@@ -11,7 +11,7 @@ const Login = () => {
 					</label>
 					<input
 						type="email"
-						class="form-control form-control-lg"
+						class="form-control magic"
 						id="exampleFormControlInput1"
 						placeholder="name@example.com"
 					/>
@@ -23,7 +23,7 @@ const Login = () => {
 					<input
 						type="password"
 						id="inputPassword5"
-						class="form-control form-control-lg"
+						class="form-control magic"
 						aria-labelledby="passwordHelpBlock"
 					/>
 				</div>
@@ -41,7 +41,7 @@ const Login = () => {
 					</a>
 				</div>
 				<div className="resetLink text-center ">
-					<a href="#" className="active link">
+					<a href="/register" className="active link">
 						Register
 					</a>
 				</div>

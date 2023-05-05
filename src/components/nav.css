@@ -1,17 +1,34 @@
-.navLeft{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+nav {
+  /* font-family: 'Oleo Script Swash Caps', cursive; */
+  /* font-family: 'Vina Sans',cursive; */
+  /* font-family: 'Teko', sans-serif; */
+  /* font-family: 'Rancho', cursive; */
+  /* font-family: 'Rubik Distressed', cursive; */
+  /* font-family: 'Yatra One', cursive; */
 }
-.custom{
-  width: 150px;
+
+.join {
   background-color: #3C486B;
-  border: none;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
-.custom:hover{
+
+.join:hover {
   background-color: #2A2F4F;
+  color: white;
+
+
 }
-.navbar-nav{
-  gap: 50px;
+
+.joinLink {
+  color: white;
+
+
+}
+
+.joinLink:hover {
+  color: white;
+
+
 }

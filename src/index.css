@@ -1,0 +1,27 @@
+/* body {
+      min-height: 100vh;
+} */
+
+main {
+      max-width: 1170px;
+      margin: 0 auto;
+      padding: 0 1re;
+      width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+      main {
+            padding: 0 20px;
+      }
+
+
+      /* CSS */
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+      main {
+            padding: 0 20px;
+      }
+
+}

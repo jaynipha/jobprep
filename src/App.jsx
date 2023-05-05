@@ -9,20 +9,33 @@ import Footer from './components/Footer';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import MagicLink from './pages/MagicLink';
+import Chat from './pages/Chat';
+import { Thankyou } from './pages/Thankyou';
+import { Error } from './pages/Error';
 
 function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<div className="App">
+		<div>
 			<Nav />
 			<BrowserRouter>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/login" element={<Login />} />
-					<Route path="/register" element={<Register />} />
-					<Route path="/magic" element={<MagicLink />} />
-				</Routes>
+				<main>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/login" element={<Login />} />
+						<Route path="/register" element={<Register />} />
+						<Route path="/magic" element={<MagicLink />} />
+						<Route path="/chat" element={<Chat />} />
+						<Route path="/thanks" element={<Thankyou />} />
+						<Route path="*" element={<Error />} />
+
+
+
+					</Routes>
+
+				</main>
+
 			</BrowserRouter>
 			<Footer />
 		</div>
