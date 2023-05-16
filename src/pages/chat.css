@@ -12,6 +12,8 @@
 }
 
 .chat {
+  height: calc(100vh - 103px);
+
       /* font-family: 'Oleo Script Swash Caps',cursive; */
 
 }
@@ -32,6 +34,9 @@
       overflow-y: scroll;
 
 
+}
+.chat-messages::-webkit-scrollbar{
+      display: none;
 }
 
 .message {
@@ -115,17 +120,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      gap: 8px;
 
       /* margin-top: 30px; */
 }
 
-.send {
+.sendButton {
       /* color: white; */
       color: white;
       background-color: #3C486B;
-      padding: 5px;
+      /* padding: 5px; */
+      padding-top: 13px;
+      padding-bottom: 7px;
       border-radius: 12px;
-      width: 80px;
+      width: 100px;
       display: flex;
       align-items: center;
       justify-content: center;

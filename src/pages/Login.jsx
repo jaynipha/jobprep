@@ -16,7 +16,7 @@ const Login = () => {
 						placeholder="name@example.com"
 					/>
 				</div>
-				<div class="mb-3">
+				<div class="mb-4">
 					<label for="inputPassword5" class="form-label">
 						Password
 					</label>
@@ -30,12 +30,12 @@ const Login = () => {
 				<button type="button" class="btn btn-primary loginButton">
 					Login
 				</button>
-				<div className="resetLink text-center mb-3">
+				<div className="resetLink text-center mb-2">
 					<a href="/magic" className="active link ">
 						Send a magic link
 					</a>
 				</div>
-				<div className="resetLink text-center mb-3">
+				<div className="resetLink text-center mb-2">
 					<a href="#" className=" active link">
 						Forgot Password?
 					</a>
@@ -51,3 +51,5 @@ const Login = () => {
 };
 
 export default Login;
+
+

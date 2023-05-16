@@ -6,15 +6,15 @@ const Home = () => {
 		<div className="Home">
 			<div className="HomeContainer">
 				<h1 className="text-center mt-5">Ace your job interviews</h1>
-				<p className="text-center mb-3">
+				<p className="text-center mb-4 mt-3">
 					Prepare for job interviews with well crafted ai generated potential
 					questions
 				</p>
-				<h1 className="text-center ">
+				<h1 className="text-center mb-4 ">
 					Get potential questions,answers, reviews and sample answers{' '}
 				</h1>
-				<form className="searchForm">
-					<div className="input-group mb-3 search input-group-lg">
+				<form className="searchForm mb-4 mt-3">
+					<div className="input-group mb-4 search input-group-lg">
 						<span className="input-group-text" id="basic-addon1">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -29,19 +29,27 @@ const Home = () => {
 						</span>
 						<input
 							type="text"
+
 							className="form-control searchBar"
 							placeholder="Enter your job title"
 							aria-label="Username"
 							aria-describedby="basic-addon1"
 						/>
 					</div>
-					<button type="button" class="btn btn-primary  searchButton">
+					<button type="button" class="btn btn-primary  searchButton mt-3 ">
 						Search
 					</button>
 				</form>
 			</div>
 		</div>
+
 	);
+
 };
 
+
+
+
 export default Home;
+
+
